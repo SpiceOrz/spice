@@ -1,0 +1,25 @@
+{
+  "name": "proxy-core",
+  "version": "1.0.0",
+  "description": "proxy https core",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.coding.net/JoeyG/proxy-core.git"
+  },
+  "author": "joeyguo",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "colors": "^1.1.2",
+    "compose-middleware": "^2.2.0",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "koa": "^2.0.0",
+    "node-forge": "^0.6.40"
+  }
+}
