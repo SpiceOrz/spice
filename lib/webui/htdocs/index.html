@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>spice uiapp</title>
+  </head>
+  <body>
+    <h1>spice uiapp</h1>
+    <div id="connect"></div>
+    <script>
+    function emptyFn(){}
+    function pureEventSource(opts){
+        var evts = new EventSource('http://localhost:3035/' + opts.id);
+        evts.onopen = opts.open || emptyFn;
+        evts.onmessage = opts.message || emptyFn;
+        evts.onerror = opts.error || emptyFn;
+        return evts;
+    }
+
+    var evts_floor = pureEventSource({
+        id: '__pool__',
+        open: function() {
+            console.log('eventsource connect');
+        },
+        message: function(e) {
+            console.log('ui get Event source');
+            console.log(e)
+            console.log(e.data)
+            var data = e.data !== '__pool__' ? JSON.parse(e.data): [];
+            connect.innerHTML +=  '<br>' + data.message || 'server return';
+            console.log(data);
+        },
+        error: function() {
+        }
+    })
+    </script>
+  </body>
+</html>
