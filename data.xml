@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="yes"?>
+<FiddlerDS>
+  <dsProject LastSave="2015-09-07T14:44:22.529808+08:00" FiddlerVersion="1.4.0.0">
+    <Project Name="群查找分类页面" Enabled="false">
+      <ResponseRule Enabled="true" Match="http://qun.qq.com/search/mobileqq/" Action="E:\svn-trunk\qun_search_proj\app\" WillowData="" Order="12" ResponseRule_Id="22" />
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/search/mobileqq/scripts/" Action="E:\svn-trunk\qun_search_proj\app\scripts\" WillowData="" Order="3" ResponseRule_Id="5" />
+      <ResponseRule Enabled="false" Match="http://p.qlogo.cn/gh/" Action="404_Plain.dat" WillowData="" Order="24" ResponseRule_Id="60" />
+      <ResponseRule Enabled="false" Match="http://pub.idqqimg.com/qqun/search/mobileqq/" Action="E:\svn-trunk\qun_search_proj\dist\" WillowData="" Order="14" ResponseRule_Id="22" />
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/cgi-bin/" Action="404_Plain.dat" WillowData="" Order="28" ResponseRule_Id="81" />
+      <OverrideHost Enabled="false" Name="qun.qq.com pub.idqqimg.com s2.url.cn s1.url.cn s.url.cn" IP="172.27.6.7" Order="4" />
+      <OverrideHost Enabled="false" Name="qun.qq.com" IP="10.12.23.163" Order="6" />
+      <OverrideHost Enabled="false" Name="qun.qq.com" IP="172.27.6.7" Order="9" />
+      <OverrideHost Enabled="false" Name="qun.qq.com" IP="10.12.23.163" Order="8" />
+      <Extension Enabled="false" Match="http://qun.qq.com/cgi-bin/group_search/" Action="x-overrideHost=10.213.160.174" />
+      <Extension Enabled="true" Match="http://qun.qq.com/cgi-bin/bar/qun_categery" Action="x-overrideHost=183.61.32.184" />
+      <Extension Enabled="true" Match="http://qun.qq.com/search/mobileqq/categories.html" Action="x-overrideHost=127.0.0.1:12801" />
+    </Project>
+    <Project Name="offline" Enabled="false">
+      <ResponseRule Enabled="true" Match="http://offline.qq.com/offline/check" Action="404_Plain.dat" WillowData="" Order="1" ResponseRule_Id="1" />
+      <ResponseRule Enabled="true" Match="http://badjs.qq.com/" Action="404_Plain.dat" WillowData="" Order="2" ResponseRule_Id="1" />
+    </Project>
+    <Project Name="群查找结果页" Enabled="false">
+      <ResponseRule Enabled="true" Match="http://qqweb.qq.com/m/relativegroup/js/" Action="E:\svn-trunk\relativegroup\src\js\" WillowData="" Order="6" ResponseRule_Id="8" />
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/cgi-bin/group_search/" Action="C:\Users\burlinchen\Desktop\Dump-0703-17-25-33\qun.qq.com\cgi-bin\group_search\" WillowData="" Order="11" ResponseRule_Id="18" />
+      <ResponseRule Enabled="false" Match="http://s1.url.cn/qqweb/m/relativegroup/" Action="E:\svn-projects\relativegroup\dist\" WillowData="" Order="10" ResponseRule_Id="18" />
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/cgi-bin/" Action="404_Plain.dat" WillowData="" Order="30" ResponseRule_Id="81" />
+      <ResponseRule Enabled="false" Match="http://s1.url.cn/qqweb/m/relativegroup/" Action="E:\svn-trunk\relativegroup\app\" WillowData="" Order="5" ResponseRule_Id="5" />
+      <OverrideHost Enabled="false" Name="qqweb.qq.com pub.idqqimg.com s2.url.cn s1.url.cn" IP="10.12.23.159" Order="11" />
+      <Extension Enabled="true" Match="http://qun.qq.com/cgi-bin/group_search/" Action="x-overrideHost=10.213.160.174" />
+      <Extension Enabled="true" Match="http://qqweb.qq.com/m/relativegroup/" Action="x-overrideHost=127.0.0.1:12801" />
+    </Project>
+    <Project Name="送花" Enabled="true">
+      <ResponseRule Enabled="true" Match="http://qun.qq.com/qqun/flowers/" Action="E:\svn-trunk\flowers\dist\" WillowData="" Order="7" ResponseRule_Id="14" />
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/cgi-bin/" Action="404_Plain.dat" WillowData="" Order="31" ResponseRule_Id="81" />
+      <OverrideHost Enabled="false" Name="qun.qq.com s.url.cn" IP="10.12.23.157" Order="1" />
+      <Extension Enabled="false" Match="http://qun.qq.com/cgi-bin/" Action="x-overrideHost=10.213.160.174" />
+    </Project>
+    <Project Name="joinedrecommend" Enabled="false">
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/joinedrecommend/" Action="E:\svn-projects\joinedrecommend\dist\" WillowData="" Order="9" ResponseRule_Id="15" />
+      <ResponseRule Enabled="true" Match="http://qun.qq.com/cgi-bin/" Action="C:\Users\burlinchen\Desktop\4_.htm" WillowData="" Order="33" ResponseRule_Id="81" />
+      <OverrideHost Enabled="false" Name="qun.qq.com s.url.cn" IP="10.12.23.157" Order="3" />
+      <Extension Enabled="false" Match="http://qun.qq.com/cgi-bin/" Action="x-overrideHost=10.213.160.174" />
+    </Project>
+    <Project Name="jb_cloud" Enabled="false">
+      <OverrideHost Enabled="false" Name="jb.oa.com debug.oa.com" IP="10.12.23.163" Order="12" />
+      <OverrideHost Enabled="true" Name="pm2.oa.com" IP="10.12.191.122" Order="13" />
+    </Project>
+    <Project Name="qunreview" Enabled="false">
+      <ResponseRule Enabled="true" Match="http://qqweb.qq.com/m/qunreview/" Action="E:\svn-projects\qunreview\dist\" WillowData="" Order="18" ResponseRule_Id="38" />
+      <ResponseRule Enabled="false" Match="http://pub.idqqimg.com/qqmobile/qqapi.js" Action="C:\Users\burlinchen\Desktop\qqapi.js" WillowData="" Order="21" ResponseRule_Id="51" />
+      <OverrideHost Enabled="false" Name="qqweb.qq.com s3.url.cn" IP="proxy.alloyproxy.com:8003" Order="16" />
+    </Project>
+    <Project Name="qunactivity_manager 增加显示群主/管理员资料" Enabled="false">
+      <ResponseRule Enabled="false" Match="http://qqweb.qq.com/qunactivity_manager/" Action="E:\svn-trunk\qunactivity_manager\src\" WillowData="" Order="16" ResponseRule_Id="37" />
+      <ResponseRule Enabled="false" Match="http://s.url.cn/qqweb/qunactivity_manager/" Action="E:\svn-trunk\qunactivity_manager\dist\" WillowData="" Order="17" ResponseRule_Id="37" />
+      <ResponseRule Enabled="false" Match="http://qqweb.qq.com/cgi-bin/examine/get_group_admin_info/" Action="E:\svn-projects\get_group_admin_info.json" WillowData="" Order="26" ResponseRule_Id="75" />
+      <ResponseRule Enabled="false" Match="http://qqweb.qq.com/cgi-bin/examine/" Action="C:\Users\burlinchen\Desktop\Dump-0723-19-29-10\qqweb.qq.com\cgi-bin\examine\" WillowData="" Order="27" ResponseRule_Id="75" />
+      <OverrideHost Enabled="true" Name="qqweb.qq.com s.url.cn" IP="10.12.23.159" Order="14" />
+      <Extension Enabled="true" Match="http://qqweb.qq.com/cgi-bin/" Action="x-overrideHost=10.14.36.103" />
+      <Extension Enabled="false" Match="http://qqweb.qq.com/cgi-bin/examine/get_group_admin_info/" Action="x-overrideHost=10.213.160.174" />
+    </Project>
+    <Project Name="qunportal" Enabled="false">
+      <ResponseRule Enabled="true" Match="http://qun.qq.com/" Action="E:\svn-projects\qunportal\src\" WillowData="" Order="19" ResponseRule_Id="49" />
+      <ResponseRule Enabled="true" Match="http://s2.url.cn/qqun/qun/" Action="E:\svn-projects\qunportal\dist\" WillowData="" Order="20" ResponseRule_Id="49" />
+      <OverrideHost Enabled="true" Name="qun.qq.com s2.url.cn" IP="10.12.23.157" Order="15" />
+    </Project>
+    <Project Name="群日历" Enabled="false">
+      <ResponseRule Enabled="true" Match="http://qqweb.qq.com/calendar/" Action="E:\svn-trunk\calendar\dist\" WillowData="" Order="22" ResponseRule_Id="56" />
+    </Project>
+    <Project Name="aifen" Enabled="false">
+      <ResponseRule Enabled="true" Match="http://localhost:3000/" Action="E:\git-projects\" WillowData="" Order="23" ResponseRule_Id="57" />
+      <Extension Enabled="false" Match="http://localhost:3000/activities/55ab9549bc52d2b40e8507d9/" Action="x-overrideHost=localhost:3000" />
+    </Project>
+    <Project Name="外部资源" Enabled="false">
+      <ResponseRule Enabled="true" Match="http://pub.idqqimg.com/qqmobile/" Action="E:\data\sites\pub.idqqimg.com\qqmobile\" WillowData="" Order="60" ResponseRule_Id="94" />
+      <Extension Enabled="false" Match="http://pub.idqqimg.com/qqmobile/" Action="x-overrideHost=E:\data\sites\pub.idqqimg.com\qqmobile\" />
+    </Project>
+    <Project Name="群签到" Enabled="false">
+      <OverrideHost Enabled="true" Name="app.qun.qq.com" IP="10.12.23.163" Order="20" />
+    </Project>
+    <Project Name="群周报" Enabled="false">
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/search/mobileqq/" Action="E:\svn-trunk\qun_search_proj\app\" WillowData="" Order="13" ResponseRule_Id="22" />
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/search/mobileqq/scripts/" Action="E:\svn-trunk\qun_search_proj\app\scripts\" WillowData="" Order="4" ResponseRule_Id="5" />
+      <ResponseRule Enabled="false" Match="http://p.qlogo.cn/gh/" Action="404_Plain.dat" WillowData="" Order="25" ResponseRule_Id="60" />
+      <ResponseRule Enabled="false" Match="http://pub.idqqimg.com/qqun/search/mobileqq/" Action="E:\svn-trunk\qun_search_proj\dist\" WillowData="" Order="15" ResponseRule_Id="22" />
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/cgi-bin/" Action="404_Plain.dat" WillowData="" Order="29" ResponseRule_Id="81" />
+      <OverrideHost Enabled="false" Name="qun.qq.com pub.idqqimg.com s2.url.cn s1.url.cn s.url.cn" IP="172.27.6.7" Order="5" />
+      <OverrideHost Enabled="true" Name="qqweb.qq.com" IP="172.27.6.7" Order="10" />
+      <Extension Enabled="false" Match="http://qun.qq.com/cgi-bin/group_search/" Action="x-overrideHost=10.213.160.174" />
+      <Extension Enabled="false" Match="http://qun.qq.com/cgi-bin/bar/qun_categery" Action="x-overrideHost=183.61.32.184" />
+      <Extension Enabled="false" Match="http://qun.qq.com/search/mobileqq/" Action="x-overrideHost=127.0.0.1:12801" />
+    </Project>
+    <Project Name="ibeacon" Enabled="false">
+      <OverrideHost Enabled="true" Name="ibeacon.alloyproxy.com" IP="10.12.23.163" Order="7" />
+      <Extension Enabled="false" Match="http://qun.qq.com/cgi-bin/group_search/" Action="x-overrideHost=10.213.160.174" />
+      <Extension Enabled="false" Match="http://qun.qq.com/cgi-bin/bar/qun_categery" Action="x-overrideHost=183.61.32.184" />
+      <Extension Enabled="false" Match="http://qun.qq.com/search/mobileqq/" Action="x-overrideHost=127.0.0.1:12801" />
+    </Project>
+    <Project Name="qun_nearby_group" Enabled="false">
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/qqweb/m/qun/search/" Action="E:\svn-projects\search_nearby_group\dist\" WillowData="" Order="8" ResponseRule_Id="14" />
+      <ResponseRule Enabled="false" Match="http://qun.qq.com/cgi-bin/" Action="404_Plain.dat" WillowData="" Order="32" ResponseRule_Id="81" />
+      <OverrideHost Enabled="true" Name="qun.qq.com s1.url.cn" IP="10.12.23.157" Order="2" />
+      <Extension Enabled="true" Match="http://qun.qq.com/cgi-bin/" Action="x-overrideHost=10.213.160.174" />
+    </Project>
+  </dsProject>
+</FiddlerDS>
