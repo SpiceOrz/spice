@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./proxy.js",
-    "dev": "node node_modules/nodemon/bin/nodemon.js proxy.js",
+    "dev": "node node_modules/nodemon/bin/nodemon.js --debug=5861 proxy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +29,7 @@
     "node-forge": "^0.6.40",
     "http-proxy": "~1.11.2",
     "http-proxy-agent": "~1.0.0",
+    "pac-proxy-agent": "~1.0.0",
     "xml2js": "^0.4.17"
   },
   "devDependencies": {
