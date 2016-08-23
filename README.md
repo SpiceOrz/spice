@@ -31,6 +31,8 @@ Wait Me..
 ```
 
 * 配置代理访问
-./lib
-└─config
-   └─index.js 配置`proxyPac`pac地址，配置`proxyServer`代理服务器(暂时支持http)，proxyPac优先级最高
+
+```shell
+./lib/config/index.js
+配置`proxyPac`pac地址，配置`proxyServer`代理服务器(暂时支持http)，proxyPac优先级最高
+```
