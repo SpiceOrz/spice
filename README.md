@@ -29,3 +29,8 @@ Wait Me..
 │   
 └── core  -- 代理 core 代码
 ```
+
+* 配置代理访问
+./lib
+└─config
+   └─index.js 配置`proxyPac`pac地址，配置`proxyServer`代理服务器(暂时支持http)，proxyPac优先级最高
