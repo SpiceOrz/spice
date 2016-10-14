@@ -1,16 +1,31 @@
-module.exports={
+module.exports = {
     "name": "livepool",
     "type": "root",
     "children": [
         {
             "name": "project1",
             "type": "proj",
-            "match": "/Users/rehorn/Documents/Code/node/livepool/test/examples/",
+            "id": "2a705271-5fa8-d785-db66-354abeaec96a",
+            "checked": true,
             "children": [
                 {
-                    "name": "handler",
+                    "name": "handle",
                     "type": "group",
+                    "checked": true,
+                    "id": "9d94c6c9-8ef2-5e86-7791-d0897617f62e",
                     "children": [
+                        // {
+                        //     "id": "123123123123123",
+                        //     "match": "test.huayangadmin.oa.com",
+                        //     "action": "10.129.132.170",
+                        //     "checked": true
+                        // },
+                        {
+                            "id": "445236234231113",
+                            "match": "test.huayangadmin.oa.com",
+                            "action": "file:D:/test.txt",
+                            "checked": true
+                        },
                         {
                             "id": "1746f2e5-31ab-5328-4452-c5d19da65f8a",
                             "match": "find.qq.com/js/delay.js",
@@ -58,16 +73,13 @@ module.exports={
                             "name": "",
                             "id": "77cd1499-9a17-de66-ffc9-e0cc60a4665e"
                         }
-                    ],
-                    "checked": true,
-                    "match": "",
-                    "action": "",
-                    "enableDrag": false,
-                    "id": "9d94c6c9-8ef2-5e86-7791-d0897617f62e"
+                    ]
                 },
                 {
-                    "name": "router",
+                    "name": "proxy",
                     "type": "group",
+                    "checked": false,
+                    "id": "c86b0045-8d0c-da8d-2e12-d99fc941dd54",
                     "children": [
                         {
                             "match": "find.qq.com/cgi-bin/|cgi.find.qq.com",
@@ -85,26 +97,21 @@ module.exports={
                             "name": "",
                             "id": "c8a84960-35f9-9cfb-4df1-1bbaf7acb039"
                         }
-                    ],
-                    "checked": false,
-                    "match": "",
-                    "action": "",
-                    "enableDrag": false,
-                    "id": "c86b0045-8d0c-da8d-2e12-d99fc941dd54"
+                    ]
                 }
-            ],
-            "checked": true,
-            "action": "",
-            "id": "2a705271-5fa8-d785-db66-354abeaec96a"
+            ]
         },
         {
             "name": "project2",
             "type": "proj",
-            "match": "/Users/rehorn/Documents/Code/node/livepool/test/examples/",
+            "checked": false,
+            "id": "5fd6d6ee-73ae-841c-8ae4-ab1770609551",
             "children": [
                 {
-                    "name": "handler",
+                    "name": "handle",
                     "type": "group",
+                    "checked": false,
+                    "id": "cdb6c3c2-af93-bae6-3a44-5f97903ed38c",
                     "children": [
                         {
                             "match": "find.qq.com/index.html",
@@ -154,16 +161,13 @@ module.exports={
                             "name": "",
                             "id": "dccd5242-b249-d4d6-3b46-eb81771a5eb3"
                         }
-                    ],
-                    "checked": false,
-                    "match": "",
-                    "action": "",
-                    "enableDrag": false,
-                    "id": "cdb6c3c2-af93-bae6-3a44-5f97903ed38c"
+                    ]
                 },
                 {
-                    "name": "router",
+                    "name": "proxy",
+                    "id": "a3bdec54-ec42-1f5e-ef1e-dbe6b6d73ab8",
                     "type": "group",
+                    "checked": false,
                     "children": [
                         {
                             "match": "find.qq.com/cgi-bin/|cgi.find.qq.com",
@@ -181,17 +185,9 @@ module.exports={
                             "name": "",
                             "id": "012a8530-5f8b-7672-dcec-1f63af21e791"
                         }
-                    ],
-                    "checked": false,
-                    "match": "",
-                    "action": "",
-                    "enableDrag": false,
-                    "id": "a3bdec54-ec42-1f5e-ef1e-dbe6b6d73ab8"
+                    ]
                 }
-            ],
-            "checked": false,
-            "action": "",
-            "id": "5fd6d6ee-73ae-841c-8ae4-ab1770609551"
+            ]
         }
     ]
 };
