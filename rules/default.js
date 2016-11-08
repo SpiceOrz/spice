@@ -20,12 +20,30 @@ module.exports = {
                         //     "action": "14.17.42.40",
                         //     "checked": true
                         // },
-                        // {
-                        //     "id": "445236234231113",
-                        //     "match": "www.qq.com",
-                        //     "action": "file:E:/workspace/spice/README.md",
-                        //     "checked": true
-                        // },
+                        {
+                            "id": "223412412315512",
+                            "match": "a.com",
+                            "action": "res:500",
+                            "checked": true
+                        },
+                        {
+                            "id": "223412495464544",
+                            "match": "b.com",
+                            "action": "res:400",
+                            "checked": true
+                        },
+                        {
+                            "id": "223436266164544",
+                            "match": "c.com",
+                            "action": "res:delay(1000)",
+                            "checked": true
+                        },
+                        {
+                            "id": "445236234231113",
+                            "match": "www.qq.com",
+                            "action": "file:E:/workspace/spice/README.md",
+                            "checked": true
+                        },
                         {
                             "id": "xasdasd",
                             "match": "y.qq.com",
